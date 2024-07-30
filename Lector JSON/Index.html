@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graficador de facturas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    
+</head>
+<body>
+    <h1>Graficador de facturas</h1>
+    <div class="upload-container" id="uploadContainer">
+        <i class="fas fa-cloud-upload-alt"></i>
+        <br>
+        Arrastra y suelta archivos aquí<br>o haz clic para seleccionar archivos
+        <input type="file" id="fileInput" multiple>
+    </div>
+    <div class="preview" id="preview"></div>
+    <button class="btn" id="graphButton">Graficar archivos JSON</button>
+    <script src="scripts.js"></script>
+</body>
+</html>
